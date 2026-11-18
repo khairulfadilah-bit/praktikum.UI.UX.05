@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foto-top, .foto-bottom {
+    display: flex;
+    gap: 10px;
+}
+.foto-top img, .foto-bottom img {
+    flex: 1;               
+    height: 100px;         
+    border: 2px solid black;
+    border-radius: 5px;
+}

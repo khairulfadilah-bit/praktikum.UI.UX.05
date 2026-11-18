@@ -1,0 +1,50 @@
+body {
+    padding: 50px;
+}
+
+.box-header {
+    display: flex;
+    gap: 10px;
+}
+.box1 {
+    width: 20%;
+    height: 80px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.box2 {
+    width: 80%;
+    height: 80px;
+    background-color: orange;
+    border: 2px solid black;
+}
+.box-content {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;   
+}
+.box3 {
+    width: 20%;
+    height: 500px;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+.box4 {
+    width: 59%;
+    height: 500px;
+    background-color: grey;
+    border: 2px solid black;
+}
+.box5 {
+    width: 20%;
+    height: 500px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.box-footer {
+    height: 80px;
+    margin-top: 10px;
+    background-color: blue;
+    border: 2px solid black;
+
+}
